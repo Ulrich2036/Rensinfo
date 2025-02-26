@@ -1,0 +1,56 @@
+< !DOCTYPE html>
+<html lang= »en »>
+<head>
+  <meta charset= »UTF-8 »>
+  <meta name= »viewport » content= »width=device-width, initial-scale=1.0 »>
+  <title>GLF</title>
+  <link rel= »stylesheet » href= »style.css »>
+</head>
+<body>
+  <header>
+    <h1>Bienvenue sur GLF</h1>
+    <nav>
+      <ul>
+        <li><a href= »#home »>Accueil</a></li>
+        <li><a href= »#about »>À propos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id= »home »>
+    <h2>Page d’Accueil</h2>
+    <form id= »contact-form »>
+      <label for= »name »>Nom et Prénom :</label>
+      <input type= »text » id= »name » name= »name » required>
+
+      <label for= »age »>Âge :</label>
+      <input type= »number » id= »age » name= »age » required>
+
+      <label for= »gender »>Sexe :</label>
+      <select id= »gender » name= »gender » required>
+        <option value= »male »>Masculin</option>
+        <option value= »female »>Féminin</option>
+        <option value= »other »>Autre</option>
+      </select>
+
+      <label for= »marital-status »>Situation Matrimoniale :</label>
+      <input type= »text » id= »marital-status » name= »marital-status » required>
+
+      <label for= »dob »>Date de Naissance :</label>
+      <input type= »date » id= »dob » name= »dob » required>
+
+      <label for= »password »>Créer un Mot de Passe :</label>
+      <input type= »password » id= »password » name= »password » required>
+
+      <button type= »submit »>Soumettre</button>
+    </form>
+  </section>
+
+  <section id= »about »>
+    <h2>À propos de GLF</h2>
+    <p>GLF est une application web dédiée à [Description de l’application].</p>
+  </section>
+
+  <script src= »app.js »></script>
+</body>
+</html>

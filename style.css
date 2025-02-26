@@ -1,0 +1,68 @@
+Body {
+  Font-family : ‘Arial’, sans-serif ;
+  Text-align : center ;
+  Background-color : #f0f0f0 ;
+  Color : #333 ;
+}
+
+Header {
+  Background-color : #8b0000 ;
+  Padding : 1em ;
+  Color : white ;
+}
+
+Nav ul {
+  List-style-type : none ;
+  Padding : 0 ;
+}
+
+Nav ul li {
+  Display : inline ;
+  Margin : 0 10px ;
+}
+
+Nav ul li a {
+  Color : white ;
+  Text-decoration : none ;
+}
+
+H1, h2 {
+  Color : #8b0000 ;
+}
+
+Form {
+  Background-color : white ;
+  Padding : 20px ;
+  Border-radius : 8px ;
+  Box-shadow : 0 0 10px rgba(0, 0, 0, 0.1) ;
+  Display : inline-block ;
+  Margin-top : 20px ;
+}
+
+Label {
+  Display : block ;
+  Margin-bottom : 8px ;
+  Text-align : left ;
+}
+
+Input, select {
+  Width : 100% ;
+  Padding : 8px ;
+  Margin-bottom : 12px ;
+  Border : 1px solid #ccc ;
+  Border-radius : 4px ;
+}
+
+Button {
+  Background-color : #8b0000 ;
+  Color : white ;
+  Border : none ;
+  Padding : 10px 20px ;
+  Cursor : pointer ;
+  Border-radius : 4px ;
+}
+
+Button :hover {
+  Background-color : #9b2226 ;
+}
+
